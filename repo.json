@@ -14,7 +14,7 @@
     "IsTestingExclusive": false,
     "DownloadLinkInstall": "https://github.com/link-0402/WindowResizePlus/releases/latest/download/WindowResizePlus.zip",
     "DownloadLinkUpdate": "https://github.com/link-0402/WindowResizePlus/releases/latest/download/WindowResizePlus.zip",
-    "LastUpdate": 1788765961,
+    "LastUpdate": 1788767796,
     "Changelog": "### 1.0.0\n- First standalone WindowResize+ release.\n- Added editable target dimensions, resolution presets, a resolution toggle, and a configurable hotkey (F10 by default).\n- The resized game window stays centered.\n- Added optional preservation of game HUD, GPose controls, and ordinary Dalamud plugin window scale and placement across resolution and aspect-ratio changes.\n- Added serialized resize/restoration handling, safer failure reporting and retry behavior, multi-monitor coordinate support, and automated regression tests.\n- /wresize toggles the plugin window."
   }
 ]
