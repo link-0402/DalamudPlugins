@@ -1,0 +1,54 @@
+name: Validate repository index
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v5
+
+      - name: Validate repo.json
+        shell: pwsh
+        run: |
+          $entries = @(Get-Content -Raw repo.json | ConvertFrom-Json)
+          if ($entries.Count -eq 0) {
+            throw 'repo.json must contain at least one plugin entry.'
+          }
+
+          $required = @(
+            'Author', 'Name', 'InternalName', 'AssemblyVersion', 'Description',
+            'ApplicableVersion', 'DalamudApiLevel', 'Punchline', 'RepoUrl',
+            'IconUrl', 'DownloadLinkInstall', 'DownloadLinkUpdate',
+            'LastUpdate', 'Changelog'
+          )
+          $internalNames = @{}
+
+          foreach ($entry in $entries) {
+            foreach ($property in $required) {
+              if (-not ($entry.PSObject.Properties.Name -contains $property) -or [string]::IsNullOrWhiteSpace([string]$entry.$property)) {
+                throw "Entry '$($entry.Name)' is missing '$property'."
+              }
+            }
+
+            if ($internalNames.ContainsKey($entry.InternalName)) {
+              throw "Duplicate InternalName: $($entry.InternalName)"
+            }
+            $internalNames[$entry.InternalName] = $true
+
+            foreach ($linkProperty in @('DownloadLinkInstall', 'DownloadLinkUpdate')) {
+              if ([Uri]$entry.$linkProperty -and $entry.$linkProperty -notmatch '/releases/latest/download/.+\.zip$') {
+                throw "$linkProperty for '$($entry.Name)' must use a latest-release zip asset URL."
+              }
+            }
+          }
+
+          Write-Host "Validated $($entries.Count) plugin entries."
