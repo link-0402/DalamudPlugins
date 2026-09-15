@@ -19,3 +19,4 @@ This repository contains only the shared index and documentation. Plugin source 
 | Plugin | Source |
 | --- | --- |
 | [WindowResize+](https://github.com/link-0402/WindowResizePlus) | [link-0402/WindowResizePlus](https://github.com/link-0402/WindowResizePlus) |
+| [XIV Instant Edit](https://github.com/link-0402/XIV-Instant-Edit) | [link-0402/XIV-Instant-Edit](https://github.com/link-0402/XIV-Instant-Edit) |
