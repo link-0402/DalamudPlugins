@@ -16,5 +16,35 @@
     "DownloadLinkUpdate": "https://github.com/link-0402/WindowResizePlus/releases/latest/download/WindowResizePlus.zip",
     "LastUpdate": 1788767796,
     "Changelog": "### 1.0.0\n- First standalone WindowResize+ release.\n- Added editable target dimensions, resolution presets, a resolution toggle, and a configurable hotkey (F10 by default).\n- The resized game window stays centered.\n- Added optional preservation of game HUD, GPose controls, and ordinary Dalamud plugin window scale and placement across resolution and aspect-ratio changes.\n- Added serialized resize/restoration handling, safer failure reporting and retry behavior, multi-monitor coordinate support, and automated regression tests.\n- /wresize toggles the plugin window."
+  },
+  {
+    "Author": "Luci",
+    "Name": "XIV Instant Edit",
+    "InternalName": "InstantEdit",
+    "AssemblyVersion": "1.2.0.0",
+    "Description": "Enables easy importing of Penumbra model files in Blender and exporting them back to the game with just a single click. Provides various utilities and settings to make mod creation and editing easier and faster.",
+    "Punchline": "Send Penumbra model files to Blender and back with a single click.",
+    "ApplicableVersion": "any",
+    "RepoUrl": "https://github.com/link-0402/XIV-Instant-Edit",
+    "DalamudApiLevel": 15,
+    "LoadRequiredState": 0,
+    "LoadSync": true,
+    "CanUnloadAsync": false,
+    "LoadPriority": 0,
+    "AcceptsFeedback": false,
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/link-0402/XIV-Instant-Edit/main/Dalamud-Plugin/InstantEdit/latest.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/link-0402/XIV-Instant-Edit/main/Dalamud-Plugin/InstantEdit/latest.zip",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/link-0402/XIV-Instant-Edit/main/Dalamud-Plugin/InstantEdit/latest.zip",
+    "Tags": [
+      "Penumbra",
+      "Blender",
+      "Modding",
+      "Model",
+      "Utility"
+    ],
+    "IsHide": false,
+    "IsTestingExclusive": false,
+    "LastUpdate": 1789509783,
+    "Changelog": "### 1.2.0\n- Added texture editing support with 32-bit TGA workflows.\n- Added armature-combine support in the Toolbox.\n- Added animation editing and startup animation generation.\n- Improved Penumbra 1.7 compatibility, export handoff, diagnostics, path handling, and validation.\n- Added automatic Penumbra attribute-group creation for Quick Export.\n- Added the in-plugin changelog viewer and first-time setup flow."
   }
 ]
