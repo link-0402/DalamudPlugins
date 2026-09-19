@@ -86,14 +86,14 @@
   },
   {
     "Author": "Luci",
-    "Name": "Advanced Penumbra Item Converter",
-    "InternalName": "AdvancedPenumbraItemConverter",
-    "AssemblyVersion": "1.1.0.0",
-    "TestingAssemblyVersion": "1.1.0.0",
+    "Name": "Advanced Penumbra Mod Converter",
+    "InternalName": "AdvancedPenumbraModConverter",
+    "AssemblyVersion": "1.1.1.0",
+    "TestingAssemblyVersion": "1.1.1.0",
     "Description": "Convert gear, facewear, hair, face, tail and Viera-ear assets in Penumbra mods to other items, slots and races. Supports the Penumbra 1.7+ mod format, retargets game paths, model/material references and metadata, previews every change, and can revert conversions.",
     "Punchline": "Move Penumbra mods to other items, slots and races.",
     "ApplicableVersion": "any",
-    "RepoUrl": "https://github.com/link-0402/Advanced-Penumbra-Item-Converter",
+    "RepoUrl": "https://github.com/link-0402/Advanced-Penumbra-Mod-Converter",
     "IconUrl": "https://github.com/link-0402.png",
     "DalamudApiLevel": 15,
     "TestingDalamudApiLevel": 15,
@@ -102,9 +102,9 @@
     "CanUnloadAsync": true,
     "LoadPriority": 0,
     "AcceptsFeedback": false,
-    "DownloadLinkInstall": "https://github.com/link-0402/Advanced-Penumbra-Item-Converter/releases/latest/download/AdvancedPenumbraItemConverter.zip",
-    "DownloadLinkUpdate": "https://github.com/link-0402/Advanced-Penumbra-Item-Converter/releases/latest/download/AdvancedPenumbraItemConverter.zip",
-    "DownloadLinkTesting": "https://github.com/link-0402/Advanced-Penumbra-Item-Converter/releases/latest/download/AdvancedPenumbraItemConverter.zip",
+    "DownloadLinkInstall": "https://github.com/link-0402/Advanced-Penumbra-Mod-Converter/releases/latest/download/AdvancedPenumbraModConverter.zip",
+    "DownloadLinkUpdate": "https://github.com/link-0402/Advanced-Penumbra-Mod-Converter/releases/latest/download/AdvancedPenumbraModConverter.zip",
+    "DownloadLinkTesting": "https://github.com/link-0402/Advanced-Penumbra-Mod-Converter/releases/latest/download/AdvancedPenumbraModConverter.zip",
     "Tags": [
       "Penumbra",
       "Modding",
@@ -117,7 +117,7 @@
     ],
     "IsHide": false,
     "IsTestingExclusive": true,
-    "LastUpdate": 1789781915,
-    "Changelog": "### 1.1.0\n- First testing release in the shared repository.\n- Redesigned two-pane window with background previews, a plan view and a conversion history with Revert.\n- Gear slot changes warn that the model keeps its geometry; unwanted mesh groups can be removed before converting.\n- Hair, face, tail and ear targets are limited to options players can choose, labelled like \"Face 101 (Keeper of the Moon)\".\n- Lalafell convert only among Lalafell; faces stay within their gender."
+    "LastUpdate": 1789782532,
+    "Changelog": "### 1.1.1\n- Renamed from Advanced Penumbra Item Converter. The commands are now /apmc and /apmcconfig. Settings and conversion history from 1.1.0 do not carry over.\n\n### 1.1.0\n- First testing release in the shared repository.\n- Redesigned two-pane window with background previews, a plan view and a conversion history with Revert.\n- Gear slot changes warn that the model keeps its geometry; unwanted mesh groups can be removed before converting.\n- Hair, face, tail and ear targets are limited to options players can choose, labelled like \"Face 101 (Keeper of the Moon)\".\n- Lalafell convert only among Lalafell; faces stay within their gender."
   }
 ]
