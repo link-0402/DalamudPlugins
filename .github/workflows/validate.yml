@@ -27,7 +27,7 @@ jobs:
           $required = @(
             'Author', 'Name', 'InternalName', 'AssemblyVersion', 'Description',
             'ApplicableVersion', 'DalamudApiLevel', 'Punchline', 'RepoUrl',
-            'IconUrl', 'DownloadLinkInstall', 'DownloadLinkUpdate',
+            'DownloadLinkInstall', 'DownloadLinkUpdate',
             'LastUpdate', 'Changelog'
           )
           $internalNames = @{}
