@@ -47,5 +47,41 @@
     "IsTestingExclusive": false,
     "LastUpdate": 1789756840,
     "Changelog": "### 1.2.3\n- Improved material previews for hair, eyebrows, and eyelashes in the Blender add-on.\n- Fixed a stale warning that could appear after creating a Mashup.\n- The Toolbox now highlights the currently selected mesh part.\n\n### 1.2.2\n- Added glTF (.gltf/.glb) support to Simple Import in the Blender add-on.\n- Fixed the Blender add-on's sidebar tab label colliding with Yet Another Addon's.\n- Improved performance of on-screen resource source lookups for large mod lists.\n- Streamlined the On Screen resource tree to only show items Instant Edit can actually edit.\n- Fixed a mesh-renaming bug in the Toolbox where hidden objects could block valid renames.\n- Fixed a Quick Export validation edge case involving stray Penumbra mod identities.\n- Reduced managed Blender cache backup retention from 30 to 7 days.\n- Simplified Quick Export's automatic Penumbra attribute-group toggle.\n- Various internal cleanup and refactoring.\n\n### 1.2.1\n- Improved Blender status message display and fixed a performance issue with Blender UI draw calls; hidden part tags are now suppressed.\n- Various internal cleanup and refactoring.\n\n### 1.2.0\n- Added texture editing support with 32-bit TGA workflows.\n- Added armature-combine support in the Toolbox.\n- Added animation editing and startup animation generation.\n- Improved Penumbra 1.7 compatibility, export handoff, diagnostics, path handling, and validation.\n- Added automatic Penumbra attribute-group creation for Quick Export.\n- Added the in-plugin changelog viewer and first-time setup flow."
+  },
+  {
+    "Author": "Luci",
+    "Name": "XIV Port Studio",
+    "InternalName": "XIVPortStudio",
+    "AssemblyVersion": "0.1.0.0",
+    "TestingAssemblyVersion": "0.1.0.0",
+    "Description": "Toolkit for porting outfits from other games into FFXIV. Pick an item, then define the materials and textures it should use so the result can be exported as a Penumbra mod.",
+    "Punchline": "Set up materials and textures for imported FFXIV gear.",
+    "ApplicableVersion": "any",
+    "RepoUrl": "https://github.com/link-0402/XIV-Port-Studio",
+    "IconUrl": "https://github.com/link-0402.png",
+    "DalamudApiLevel": 15,
+    "TestingDalamudApiLevel": 15,
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "CanUnloadAsync": true,
+    "LoadPriority": 0,
+    "AcceptsFeedback": false,
+    "DownloadLinkInstall": "https://github.com/link-0402/XIV-Port-Studio/releases/latest/download/XIVPortStudio.zip",
+    "DownloadLinkUpdate": "https://github.com/link-0402/XIV-Port-Studio/releases/latest/download/XIVPortStudio.zip",
+    "DownloadLinkTesting": "https://github.com/link-0402/XIV-Port-Studio/releases/latest/download/XIVPortStudio.zip",
+    "Tags": [
+      "Penumbra",
+      "Modding",
+      "Gear",
+      "Materials",
+      "Textures"
+    ],
+    "CategoryTags": [
+      "Modding"
+    ],
+    "IsHide": false,
+    "IsTestingExclusive": true,
+    "LastUpdate": 1789781350,
+    "Changelog": "### 0.1.0\n- First testing release."
   }
 ]
