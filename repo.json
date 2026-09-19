@@ -83,5 +83,41 @@
     "IsTestingExclusive": true,
     "LastUpdate": 1789781350,
     "Changelog": "### 0.1.0\n- First testing release."
+  },
+  {
+    "Author": "Luci",
+    "Name": "Advanced Penumbra Item Converter",
+    "InternalName": "AdvancedPenumbraItemConverter",
+    "AssemblyVersion": "1.1.0.0",
+    "TestingAssemblyVersion": "1.1.0.0",
+    "Description": "Convert gear, facewear, hair, face, tail and Viera-ear assets in Penumbra mods to other items, slots and races. Supports the Penumbra 1.7+ mod format, retargets game paths, model/material references and metadata, previews every change, and can revert conversions.",
+    "Punchline": "Move Penumbra mods to other items, slots and races.",
+    "ApplicableVersion": "any",
+    "RepoUrl": "https://github.com/link-0402/Advanced-Penumbra-Item-Converter",
+    "IconUrl": "https://github.com/link-0402.png",
+    "DalamudApiLevel": 15,
+    "TestingDalamudApiLevel": 15,
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "CanUnloadAsync": true,
+    "LoadPriority": 0,
+    "AcceptsFeedback": false,
+    "DownloadLinkInstall": "https://github.com/link-0402/Advanced-Penumbra-Item-Converter/releases/latest/download/AdvancedPenumbraItemConverter.zip",
+    "DownloadLinkUpdate": "https://github.com/link-0402/Advanced-Penumbra-Item-Converter/releases/latest/download/AdvancedPenumbraItemConverter.zip",
+    "DownloadLinkTesting": "https://github.com/link-0402/Advanced-Penumbra-Item-Converter/releases/latest/download/AdvancedPenumbraItemConverter.zip",
+    "Tags": [
+      "Penumbra",
+      "Modding",
+      "Gear",
+      "Hair",
+      "Conversion"
+    ],
+    "CategoryTags": [
+      "Modding"
+    ],
+    "IsHide": false,
+    "IsTestingExclusive": true,
+    "LastUpdate": 1789781915,
+    "Changelog": "### 1.1.0\n- First testing release in the shared repository.\n- Redesigned two-pane window with background previews, a plan view and a conversion history with Revert.\n- Gear slot changes warn that the model keeps its geometry; unwanted mesh groups can be removed before converting.\n- Hair, face, tail and ear targets are limited to options players can choose, labelled like \"Face 101 (Keeper of the Moon)\".\n- Lalafell convert only among Lalafell; faces stay within their gender."
   }
 ]
