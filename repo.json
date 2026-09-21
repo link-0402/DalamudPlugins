@@ -84,24 +84,23 @@
   },
   {
     "Author": "Luci",
-    "Name": "Advanced Penumbra Mod Converter",
-    "InternalName": "AdvancedPenumbraModConverter",
-    "AssemblyVersion": "1.3.0.0",
-    "TestingAssemblyVersion": "1.3.0.0",
+    "Name": "Universal Mod Converter",
+    "InternalName": "UniversalModConverter",
+    "AssemblyVersion": "1.3.1.0",
     "Description": "Convert gear, facewear, hair, face, tail and Viera-ear assets in Penumbra mods to other items, slots and races, swap idle and emote animations (optionally as an option group of idle slots), retarget animations to other races, and merge two modpacks into one. Supports the Penumbra 1.7+ mod format, retargets game paths, model/material references and metadata, previews every change, and can revert conversions.",
     "Punchline": "Move Penumbra mods to other items, slots and races.",
     "ApplicableVersion": "any",
-    "RepoUrl": "https://github.com/link-0402/Advanced-Penumbra-Mod-Converter",
+    "RepoUrl": "https://github.com/link-0402/Universal-Mod-Converter",
+    "IconUrl": "https://raw.githubusercontent.com/link-0402/Universal-Mod-Converter/main/images/icon.png",
     "DalamudApiLevel": 15,
-    "TestingDalamudApiLevel": 15,
     "LoadRequiredState": 0,
     "LoadSync": false,
     "CanUnloadAsync": true,
     "LoadPriority": 0,
     "AcceptsFeedback": false,
-    "DownloadLinkInstall": "https://github.com/link-0402/Advanced-Penumbra-Mod-Converter/releases/latest/download/AdvancedPenumbraModConverter.zip",
-    "DownloadLinkUpdate": "https://github.com/link-0402/Advanced-Penumbra-Mod-Converter/releases/latest/download/AdvancedPenumbraModConverter.zip",
-    "DownloadLinkTesting": "https://github.com/link-0402/Advanced-Penumbra-Mod-Converter/releases/latest/download/AdvancedPenumbraModConverter.zip",
+    "DownloadLinkInstall": "https://github.com/link-0402/Universal-Mod-Converter/releases/latest/download/UniversalModConverter.zip",
+    "DownloadLinkUpdate": "https://github.com/link-0402/Universal-Mod-Converter/releases/latest/download/UniversalModConverter.zip",
+    "DownloadLinkTesting": "https://github.com/link-0402/Universal-Mod-Converter/releases/latest/download/UniversalModConverter.zip",
     "Tags": [
       "Penumbra",
       "Modding",
@@ -115,8 +114,8 @@
       "Modding"
     ],
     "IsHide": false,
-    "IsTestingExclusive": true,
-    "LastUpdate": 1790013068,
-    "Changelog": "### 1.3.0\n- Added a conversion plan: batch several conversions and apply or revert them together as one result.\n- Added \"Add to this mod\" output, alongside Create a new mod and Convert in place.\n- Skin and face textures can be shared across races from a single texture-only root.\n- Added facial expressions: attach a donor emote's or mod's face animations onto a converted animation.\n- Mesh group and part removal can be previewed live on your character via Glamourer.\n- Added Merge modpacks: combine two modpacks into one new mod with an explicit conflict winner.\n- Replaced the fixed .apmc-backups folder with a configurable, size- and age-limited backup store; a crash is cleaned up and rolled back on the next start.\n\n### 1.2.0\n- Added animation conversion: move an idle to another idle slot (optionally as a Penumbra option group with one option per slot), move an emote's animations to another emote, and retarget body animations to other races' skeletons.\n- Retargeting rebuilds every animation against the target race's skeleton, with race-inheritance-aware previews.\n\n### 1.1.1\n- Renamed from Advanced Penumbra Item Converter. The commands are now /apmc and /apmcconfig. Settings and conversion history from 1.1.0 do not carry over.\n\n### 1.1.0\n- First testing release in the shared repository.\n- Redesigned two-pane window with background previews, a plan view and a conversion history with Revert.\n- Gear slot changes warn that the model keeps its geometry; unwanted mesh groups can be removed before converting.\n- Hair, face, tail and ear targets are limited to options players can choose, labelled like \"Face 101 (Keeper of the Moon)\".\n- Lalafell convert only among Lalafell; faces stay within their gender."
+    "IsTestingExclusive": false,
+    "LastUpdate": 1790019573,
+    "Changelog": "### 1.3.1\n- Renamed from Advanced Penumbra Mod Converter to Universal Mod Converter. The commands are now /umc and /umcconfig. Settings and conversion history from 1.3.0 do not carry over.\n- Promoted from testing-only to a full release.\n\n### 1.3.0\n- Added a conversion plan: batch several conversions and apply or revert them together as one result.\n- Added \"Add to this mod\" output, alongside Create a new mod and Convert in place.\n- Skin and face textures can be shared across races from a single texture-only root.\n- Added facial expressions: attach a donor emote's or mod's face animations onto a converted animation.\n- Mesh group and part removal can be previewed live on your character via Glamourer.\n- Added Merge modpacks: combine two modpacks into one new mod with an explicit conflict winner.\n- Replaced the fixed .apmc-backups folder with a configurable, size- and age-limited backup store; a crash is cleaned up and rolled back on the next start.\n\n### 1.2.0\n- Added animation conversion: move an idle to another idle slot (optionally as a Penumbra option group with one option per slot), move an emote's animations to another emote, and retarget body animations to other races' skeletons.\n- Retargeting rebuilds every animation against the target race's skeleton, with race-inheritance-aware previews.\n\n### 1.1.1\n- Renamed from Advanced Penumbra Item Converter. The commands are now /apmc and /apmcconfig. Settings and conversion history from 1.1.0 do not carry over.\n\n### 1.1.0\n- First testing release in the shared repository.\n- Redesigned two-pane window with background previews, a plan view and a conversion history with Revert.\n- Gear slot changes warn that the model keeps its geometry; unwanted mesh groups can be removed before converting.\n- Hair, face, tail and ear targets are limited to options players can choose, labelled like \"Face 101 (Keeper of the Moon)\".\n- Lalafell convert only among Lalafell; faces stay within their gender."
   }
 ]
