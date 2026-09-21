@@ -51,8 +51,8 @@
     "Author": "Luci",
     "Name": "XIV Port Studio",
     "InternalName": "XIVPortStudio",
-    "AssemblyVersion": "0.2.0.0",
-    "TestingAssemblyVersion": "0.2.0.0",
+    "AssemblyVersion": "0.2.1.0",
+    "TestingAssemblyVersion": "0.2.1.0",
     "Description": "Toolkit for porting outfits from other games into FFXIV. Pick an item, then define the materials and textures it should use so the result can be exported as a Penumbra mod.",
     "Punchline": "Set up materials and textures for imported FFXIV gear.",
     "ApplicableVersion": "any",
@@ -79,8 +79,8 @@
     ],
     "IsHide": false,
     "IsTestingExclusive": true,
-    "LastUpdate": 1790012692,
-    "Changelog": "### 0.2.0\n- Added item metadata support (EQDP, EQP, EST) and a model material rewriter.\n- Restructured the panel layout into Browse, Details, Item Meta, Mod Info, and Model Inspector panels.\n- Added texture and model file caching and a material template library.\n\n### 0.1.0\n- First testing release."
+    "LastUpdate": 1790018057,
+    "Changelog": "### 0.2.1\n- Fixes and refinements to model material linking, texture conversion, mod validation, the model inspector, and file drop handling.\n\n### 0.2.0\n- Added item metadata support (EQDP, EQP, EST) and a model material rewriter.\n- Restructured the panel layout into Browse, Details, Item Meta, Mod Info, and Model Inspector panels.\n- Added texture and model file caching and a material template library.\n\n### 0.1.0\n- First testing release."
   },
   {
     "Author": "Luci",
