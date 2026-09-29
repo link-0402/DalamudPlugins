@@ -21,4 +21,4 @@ This repository contains only the shared index and documentation. Plugin source 
 | [WindowResize+](https://github.com/link-0402/WindowResizePlus) | [link-0402/WindowResizePlus](https://github.com/link-0402/WindowResizePlus) |
 | [XIV Instant Edit](https://github.com/link-0402/XIV-Instant-Edit) | [link-0402/XIV-Instant-Edit](https://github.com/link-0402/XIV-Instant-Edit) |
 | [XIV Port Studio](https://github.com/link-0402/XIV-Port-Studio) (testing only) | [link-0402/XIV-Port-Studio](https://github.com/link-0402/XIV-Port-Studio) |
-| [Advanced Penumbra Mod Converter](https://github.com/link-0402/Advanced-Penumbra-Mod-Converter) (testing only) | [link-0402/Advanced-Penumbra-Mod-Converter](https://github.com/link-0402/Advanced-Penumbra-Mod-Converter) |
+| [Universal Mod Converter](https://github.com/link-0402/Universal-Mod-Converter) | [link-0402/Universal-Mod-Converter](https://github.com/link-0402/Universal-Mod-Converter) |
