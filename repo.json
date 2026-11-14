@@ -88,7 +88,7 @@
     "Author": "Luci",
     "Name": "Look At Me",
     "InternalName": "LookAtMe",
-    "AssemblyVersion": "1.0.0.0",
+    "AssemblyVersion": "1.1.0.0",
     "Description": "Lists everyone currently targeting your character, set apart from those who looked earlier, with the emotes they aim at you.\nHover a name to light them up in the world, right-click to send a tell, target them or point the camera at them.\nOptional sound alerts and Moodles support.",
     "Punchline": "See who's looking at you.",
     "ApplicableVersion": "any",
@@ -112,7 +112,7 @@
     ],
     "IsHide": false,
     "IsTestingExclusive": false,
-    "LastUpdate": 1793409672,
-    "Changelog": "### 1.0.0\n- First release.\n- A list of everyone targeting you, with who looked earlier and the emotes they aim at you.\n- Hover a name to find them in the world; right-click to send a tell, open them in XIV Instant Messenger, target them, focus the camera on them and more.\n- Optional sound alerts, and a hotkey to pause or block players in Lightless Sync and PlayerSync."
+    "LastUpdate": 1794661771,
+    "Changelog": "### 1.1.0\n- New search box at the top of the list: type part of a name to highlight every nearby player whose name contains it, with a name label.\n- Fixed pausing and blocking players in PlayerSync on its current versions.\n\n### 1.0.0\n- First release.\n- A list of everyone targeting you, with who looked earlier and the emotes they aim at you.\n- Hover a name to find them in the world; right-click to send a tell, open them in XIV Instant Messenger, target them, focus the camera on them and more.\n- Optional sound alerts, and a hotkey to pause or block players in Lightless Sync and PlayerSync."
   }
 ]
